@@ -1,0 +1,26 @@
+@import 'base.css';
+
+/***** 공통사항 *****/
+.board_wrap {width:96%; max-width:960px; margin:0 auto;}
+
+/***** g_wr.php *****/
+
+
+/***** g_list.php *****/
+.gallerys, .masonry_sizer {width:24%; margin:0.5%; padding:5px; font-size:1rem; float:left;}
+.gallerys > :nth-child(1) {border:1px solid #ddd;}
+.gallerys > :nth-child(2) {padding:0.5em; font-size:1.25em; color:#666;}
+.gallerys > :nth-child(2) > i {color:#000; font-size:0.875em;}
+#wr_bt_wrap {text-align:right; padding:1rem 0.5rem; width:96%; max-width:960px; margin:0 auto;}
+
+.board_view {border-top:1px solid #ccc; border-left:1px solid #ccc; border-right:1px solid #ccc; margin-bottom:5rem;}
+.gv_tit {padding:1rem 0; background:#eee; border-bottom:1px solid #ccc; text-align:center; color:#666; font-weight:bold;}
+.gv_cont {padding:1rem; background:#fff; border-bottom:1px solid #ccc; text-align:left;}
+
+.pds_thumb {width:150px; border:1px solid #999; padding:6px; margin-bottom:6px; position:relative;}
+.pds_thumb > div {line-height:24px; width:24px; height:24px; background-color:#333; color:#fff; 
+  text-align:center; position:absolute; top:0; right:0; cursor:pointer;}
+/*
+.pds_thumb:after {content:"x"; line-height:24px; width:24px; height:24px; background-color:#333; color:#fff; 
+  text-align:center; position:absolute; top:0; right:0; cursor:pointer;}
+*/

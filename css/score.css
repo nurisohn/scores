@@ -1,0 +1,4 @@
+@import "base.css";
+
+.table input {width:80%;}
+.table th, .table td {text-align:center;}

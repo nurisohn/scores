@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title></title>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="../css/score.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="jumbotron">
+		<h2>성적관리 프로그램</h2>
+		<h4>학생들의 국, 영, 수 성적을 Ajax/Json으로 관리합니다.</h4>
+	</div>
+	<div id="wrap">
+		<table class="table table-hover">
+			<colgroup>
+				<col width="15%">
+				<col width="15%">
+				<col width="15%">
+				<col width="15%">
+				<col width="15%">
+				<col width="15%">
+				<col width="10%">
+			</colgroup>
+			<thead>
+				<tr>
+					<th>이름</th>
+					<th>국어</th>
+					<th>영어</th>
+					<th>수학</th>
+					<th>총점</th>
+					<th>평균</th>
+					<th>비고</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr id="score_in">
+					<td>
+						<input type="text" name="stdname" id="stdname" placeholder="이름">
+					</td>
+
+
+					<td>
+						<input type="text" name="kor" id="kor" placeholder="국어" maxlength="3" class="numOnly">
+					</td>
+					<td>
+						<input type="text" name="eng" id="eng" placeholder="영어" maxlength="3" class="numOnly">
+					</td>
+					<td>
+						<input type="text" name="math" id="math" placeholder="수학" maxlength="3" class="numOnly">
+					</td>
+					<td class="score_tot"></td>
+					<td class="score_avg"></td>
+					<td class="bts">
+						<button id="bt_save" class="w3-button w3-gray">저장</button>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+<script src="../js/score.js"></script>
+
+</html>

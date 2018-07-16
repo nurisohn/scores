@@ -1,0 +1,7 @@
+@import "base.css";
+
+.div {width:100%; height:30px; border:1px solid #333; background:#ccc; text-align:center; font-size:1.25rem;}
+
+#wrap {width:96%; max-width:900px; margin:50px auto;}
+#scores td, #scores th {text-align:center; padding:0.5rem 0; vertical-align:middle;}
+#scores input {width:90%; height:2.5rem; max-width:100px; text-align:center;}

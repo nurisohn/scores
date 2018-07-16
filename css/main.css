@@ -1,0 +1,46 @@
+@import 'base.css';
+/***** 공통사항 *****/
+
+/***** 메인 md_main.php *****/
+#mains {width:100%; max-width:800px; margin:10vh auto; text-align:center;}
+#mains > ul {display:inline-block; width:48%; max-width:318px; border:1px solid #bbb; margin:1%; border-radius:4px;}
+#mains > ul > li {padding:0.5rem;}
+#mains > ul > li:last-child {padding:1rem 0.5rem;}
+
+
+/***** 로그인 md_login.php *****/
+#logins {width:100%; max-width:400px; margin:auto; border:4px solid #ccc; border-radius:12px;}
+#logins > li {padding:1rem; border-bottom:1px solid #ccc;}
+#logins > li:last-child {margin-bottom:-1px;}
+.login_bts {width:100%; max-width:400px; margin: 1rem auto; text-align:center;}
+.login_tits {width:100%; max-width:400px; margin:3rem auto 1rem auto; text-align:left;}
+.login_tits .glyphicon {font-size:0.75em;}
+
+/***** 회원가입 | mem_in.php *****/
+#joins {width:100%; max-width:800px; margin:auto; border:4px solid #ccc; border-radius:12px;}
+#joins > li {padding:1rem; border-bottom:1px solid #ccc; height:5rem; padding-bottom:0.5rem;}
+#joins > li:last-child {margin-bottom:-1px;}
+.join_tit {width:20%; float:left; font-size:1.25em;}
+.join_input {width:80%; float:left;}
+.join_tits {width:100%; max-width:800px; margin:3rem auto 1rem auto; text-align:left;}
+.join_tits .glyphicon {font-size:0.75em;}
+.join_bts {width:100%; max-width:400px; margin: 1rem auto; text-align:center;}
+
+/***** sql.php *****/
+.table {width:100%; max-width:800px; margin:0 auto;}
+.table input {width:80%;}
+.table th, .table td {text-align:center;}
+
+/***** score.php *****/
+#scores {width:100%; max-width:800px; margin:0 auto;}
+#scores td, #scores th {text-align:center; padding:0.5rem 0; vertical-align:middle;}
+#scores input {width:90%; height:2.5rem; max-width:100px; text-align:center;}
+
+
+
+
+
+
+
+
+

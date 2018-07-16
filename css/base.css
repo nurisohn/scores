@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|PT+Serif:400,400i,700,700i');
+/*
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1:300,400,500,600|PT+Sans:400,400i,700,700i|Playfair+Display:400,400i,700,700i');
+font-family:'Gothic A1', sans-serif;
+font-family:'PT Sans', sans-serif;
+font-family:'PT Serif', serif;
+font-family:'Playfair Display', serif;
+*/
+html, body {font-size:14px; font-family:'PT Sans', sans-serif; font-weight:400; color:#000;}
+div, p, ul, ol, li {list-style:none; margin:0; padding:0;}
+table {border-collapse:collapse; border-spacing:0; border:none;}
+td {padding:0;}
+.clear {clear:both;}
+.clear:after {content:""; display:block; clear:both;}
+.fl {float:left !important;}
+.fr {float:right !important;}
+.img {width:100%;} 
+.h100 {height:100%;}
+.hm100 {min-height:100%;}
+.hover:hover {opacity:0.8;}
+.hover_rev {opacity:0.8;}
+.hover_rev:hover {opacity:1;}
+.hand {cursor:pointer;}
+
+
+/***** mem_exam 공통사항 *****/
+.wrap {width:100%;}
+.jumbotron {padding-left:3rem;}
+#navs a {text-decoration:none;}
+#navs .fr {color:#bbb;}
+#music_bt {font-size:1.5rem; color:#fff !important;}
+#music_bt:hover {color:#000 !important;}
+
+
+
+
+
+
+
+
+

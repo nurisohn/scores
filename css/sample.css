@@ -1,0 +1,5 @@
+@import 'base.css';
+/***** 공통사항 *****/
+.section {width:100%; padding:0.5rem; max-width:400px; margin:0 auto;}
+#datas {margin-top:20px;}
+#datas > div {border-bottom:1px solid #ccc; padding:0.25rem;}
